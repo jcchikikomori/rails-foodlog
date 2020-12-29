@@ -18,5 +18,8 @@ module Foodlog
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    # Configuration for nodejs packages
+    config.assets.paths << Rails.root.join('node_modules')
   end
 end
